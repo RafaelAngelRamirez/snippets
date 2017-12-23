@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+A.mensaje_de_guardado(${1:Valor que se comprobara. 0 o 1});${5:}
+]]></content>
+	<tabTrigger>amensaje_de_guardado</tabTrigger>
+	<scope>source.js</scope>
+	<description>Auto comprueba el mensaje.</description>
+</snippet>

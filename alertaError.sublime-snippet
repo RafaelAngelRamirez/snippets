@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+A.error("${1:Mensaje de error simple}");${5:}
+]]></content>
+	<tabTrigger>aerror</tabTrigger>
+	<scope>source.js</scope>
+	<description>A.error(msj);</description>
+</snippet>

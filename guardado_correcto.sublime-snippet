@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+A.guardado_correcto();${5:}
+]]></content>
+	<tabTrigger>aguardado_correcto</tabTrigger>
+	<scope>source.js</scope>
+	<description>A.guardado_correcto();</description>
+</snippet>

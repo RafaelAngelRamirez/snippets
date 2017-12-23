@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+A.guardado_error();${5:}
+]]></content>
+	<tabTrigger>aguardado_error</tabTrigger>
+	<scope>source.js</scope>
+	<description>A.guardado_error();</description>
+</snippet>

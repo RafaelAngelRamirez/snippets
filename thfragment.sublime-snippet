@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[th:fragment="${1:Nombre del fragment}"${2:}]]></content>
+	<tabTrigger>thfragment</tabTrigger>
+	<description>th:fragment="fragmento"</description>
+</snippet>
+

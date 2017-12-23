@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+A.confirmar("${1:Mensaje de alerta simple}", ${2:funcion a evaluar});${5:}
+]]></content>
+	<tabTrigger>aconfirmar</tabTrigger>
+	<scope>source.js</scope>
+	<description>A.confirmar(msj, funct);</description>
+</snippet>

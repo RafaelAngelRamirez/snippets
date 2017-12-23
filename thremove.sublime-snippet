@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[th:remove="${1:tag}"${2:}]]></content>
+	<tabTrigger>thremove</tabTrigger>
+	<description>th:remove="tag"</description>
+</snippet>

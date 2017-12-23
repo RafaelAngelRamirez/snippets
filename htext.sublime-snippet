@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[th:text="\$\{${1:Aqui tu codigo}\}"${2: }]]></content>
+	<tabTrigger>tht</tabTrigger>
+	
+	<description>th:text="${referencia}"</description>
+</snippet>
+

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[th:each="${1:variable}:\$\{${2:lista}\}"${3:}]]></content>
+	<tabTrigger>theach</tabTrigger>
+	<description>th:each="variable:${lista}"</description>
+</snippet>
+

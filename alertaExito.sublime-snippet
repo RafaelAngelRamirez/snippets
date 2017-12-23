@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+A.exito("${1:Mensaje de alerta simple}");${5:}
+]]></content>
+	<tabTrigger>aexito</tabTrigger>
+	<scope>source.js</scope>
+	<description>A.exito(msj);</description>
+</snippet>
