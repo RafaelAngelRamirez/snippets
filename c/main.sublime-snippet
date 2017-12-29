@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+/*
+*	${1:Esta sección esta echa para comentarios}
+*/
+
+#include <stdio.h>
+#include ${2:""}
+
+void main (void)
+{
+	//${3:Aqui va un comentario}
+
+	//VARIABLES
+	
+	${4:}
+	return 0;
+}
+
+]]></content>
+	<tabTrigger>mainR</tabTrigger>
+	<scope>source.c</scope>
+	<description>Crea el main para C</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+<![CDATA[
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''${1:¿PARA QUE ES ESTE PROGRAMA}.'''
+${2:}
+]]></content>
+    <tabTrigger>basico</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

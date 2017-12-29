@@ -1,0 +1,5 @@
+{
+
+	"cmd": ["mate-terminal -e 'bash -c \"python -u $file;echo; echo;echo ////*****FIN DE PROGRAMA****/////; echo Presiona ENTER para salir; read line\"'"],
+	"shell": true
+}

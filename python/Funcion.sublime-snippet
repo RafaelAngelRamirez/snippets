@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+def ${1:Nombre de la funcion}(self${3:, ${2:parametros}}):
+    """ Funcion:        '${1:Nombre de la funcion}'
+        Parametros:     ${3:${2:parametros}}
+
+    ${4:Descripcion de la funcion}."""
+
+    ${5:self.noSobreEscrita("${1:Nombre de la funcion}")}
+
+${6:}
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

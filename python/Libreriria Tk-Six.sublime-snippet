@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+try:
+    from six.moves import tkinter as tk
+except:
+    a("Falta la libreria six")
+${1:}
+]]></content>
+    <tabTrigger>tk</tabTrigger>   
+    <scope>source.python</scope>
+</snippet>

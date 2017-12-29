@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Nombre_de_la_clase}(${2:herencia}):
+	""" Clase: ${1:Para la documentación}	
+
+		${3:Descripcion}"""
+	${4:pass}
+
+${5:}
+]]></content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

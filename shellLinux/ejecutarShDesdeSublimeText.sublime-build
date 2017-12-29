@@ -1,0 +1,4 @@
+{
+	"cmd": ["gnome-terminal -e 'bash -c \"/.$file; echo; echo; echo -----------------FIN DE SCRIPT----------------; echo PRECIONA ENTER PARA SALIR; read line\"'"],
+	"shell": true
+}

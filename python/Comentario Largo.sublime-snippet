@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"""${1: Pon tu comentario aqui}."""
+${2:}
+]]></content>
+	<tabTrigger>cc</tabTrigger>
+	<scope>source.python</scope> 
+</snippet>
