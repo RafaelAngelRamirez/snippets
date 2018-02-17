@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<th:block ${2:th:fragment="${1:tabla}"} ${5:th:each="${3:variable}:\$\{${4:lista}\}"} ${9:th:include="${6:fragments}/${7:tabla} :: ${8:tabla}}">${10:}</th:block>]]></content>
+	<tabTrigger>thblock</tabTrigger>
+	<description>Bloque thymeleaf</description>
+</snippet>
+
+

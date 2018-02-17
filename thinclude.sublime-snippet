@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[th:include="${1:fragments}/${2:nombreDelHTML} :: ${3:nombreDelFragmento}"]]></content>
+	<tabTrigger>thinclude</tabTrigger>
+	<description>Include thymeleaf</description>
+</snippet>
+
+
