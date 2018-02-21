@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<th:block th:include="fragments/pieDePagina :: pieDePagina"></th:block>
+<th:block th:include="fragments/encabezados :: encabezados"></th:block> 
 	<div class="container">+
 		${1:Aqui tu contenido}
 	</div>
-<th:block th:include="fragments/encabezados :: encabezados"></th:block> 
+<th:block th:include="fragments/pieDePagina :: pieDePagina"></th:block>
 ]]></content>
 	<tabTrigger>pagina</tabTrigger>
 </snippet>
