@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+col-${1:xs}-${3:ofsset-}${2:12} 
+]]></content>
+	<tabTrigger>col</tabTrigger> 
+</snippet>
