@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+(div.form-group>div.input-group>(span.input-group-addon+input[th:type="text" th:field="*{campo}"].form-control.input-lg+div[th:if="\\\$\\\{#fields.hasErrors('campo')\\\}" th:errors="*{campo}"].alert.alert-danger))*
+]]></content>
+	<tabTrigger>inputs</tabTrigger>
+</snippet>
