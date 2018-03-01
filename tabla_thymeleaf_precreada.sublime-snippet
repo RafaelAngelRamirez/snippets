@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="col-sm-12">
+	<hr>
+	<th:block   th:include="fragments/tabla :: tabla"></th:block>
+</div>
+]]></content>
+	<tabTrigger>tabla</tabTrigger>
+</snippet>
