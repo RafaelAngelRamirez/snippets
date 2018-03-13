@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<div class="input-group">
+		<span class="input-group-addon">${1:Titulo}</span>
+		<select th:field="*\{${2:atributo}\}"
+				class="form-control input-lg" >
+			<option th:each="${3:objeto}:\$\{${3:objeto}s\}"
+    				th:value="\$\{${3:objeto}.id\}"
+    				th:text="\$\{${3:objeto}.nombre\}">	</option>
+		</select>
+		
+	</div>
+</div>
+]]></content>
+	<tabTrigger>thselect</tabTrigger>
+</snippet>

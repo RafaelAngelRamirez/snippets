@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<form th:action="\$\{${1:objeto}.${2:id}>0\}? @{/costos/admin/${3:ruta}/modificar\}:@{/costos/admin/${3:ruta}\}" method="post" th:object="\$\{${1:objeto}\}">
+				
+
+	<div class="row">
+		<div class="col-xs-12 text-right">
+			<a type="button" class="btn btn-danger BOTON_LIMPIAR" href="/index"> <span class="	glyphicon glyphicon-remove"></span> Cancelar</a>
+	  		<button type="submit" class="btn btn-success"> <span class="glyphicon glyphicon-floppy-save"></span> <span th:text="\$\{${1:objeto}.${2:id}>0\}? @{Modificar\}:@{Guardar\}"></span></button>
+		</div>
+	</div>
+</form>
+]]></content>
+<tabTrigger>formulario</tabTrigger>
+</snippet>
