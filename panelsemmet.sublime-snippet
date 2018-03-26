@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+div.panel-group>div.panel.panel-primary>((div.panel-heading[data-toggle="collapse" ${3:th:data-target="\\\$\\\{'#'+${1:id_thymeleaf}\\\}"} ${6:data-target="#${5:id}"}]>div.panel-title)+(div[${4:th:id="\\\$\\\{${1:id_thymeleaf}\\\}"} ${7:id="${5:id}}"].panel-collapse.collapse>div.panel-body)+(div.panel-footer))*${10:1}  
+
+]]></content>
+	<tabTrigger>panels</tabTrigger>
+</snippet>
