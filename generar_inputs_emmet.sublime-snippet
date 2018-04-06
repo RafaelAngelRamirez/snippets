@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-(div.form-group>div.input-group>(span.input-group-addon+input[th:type="text" th:field="*{campo}"].form-control.input-lg+div[th:if="\\\$\\\{#fields.hasErrors('campo')\\\}" th:errors="*{campo}"].alert.alert-danger))*
+(div.form-group>div.input-group>div.input-group-prepend>label.input-group-text+input[type="text" th:field="*{campo}"].input-lg.form-control+div[th:if="\\\$\\\{#fields.hasErrors('campo')\\\}" th:errors="*{campo}"].alert.alert-danger)${2:*${1:Cantidad}}
 ]]></content>
 	<tabTrigger>inputs</tabTrigger>
 </snippet>
